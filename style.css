@@ -1,0 +1,175 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nerko One', cursive;
+  background-image: url(https://c1.wallpaperflare.com/preview/992/955/818/grass-background-nature-natural.jpg);
+  background-size: cover;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"]{
+  padding: 12px 30px;
+  background: #e60000;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Nerko One', cursive;
+  font-weight:bold;
+  font-size: 20px;
+  opacity: 80%;
+}
+
+input[type="submit"]:hover{
+  background-color: rgb(0, 255, 157);
+  border-color: rgb(221, 2, 210);
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Nerko One', cursive;
+  font-weight:bold;
+  font-size: 20px;
+  opacity: 70%;
+}
+
+.info{
+  width: 25%;
+  background: #e7e7ee;
+  height: 30vh;
+  margin: 50px auto;
+  border-radius: 10px;
+  opacity: 80%;
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.info h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.info p{
+  text-align: center;
+  position: relative;
+  margin:40px 0;
+  font-size:20px;
+}
+
+
+header{
+  position: relative;
+  padding: 2em 3em;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 10vh;
+  background-color: #fc6806;
+}
+
+header h3{
+  position: relative;
+  margin: 0;
+  width: 40%;
+  font-family: 'Nerko One', cursive;
+  font-size: 2rem;
+  color: #000000;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1em 0;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  margin: 0 1em;
+  transition: all 0.2s linear;
+}
+
+header ul li a {
+  font-family: 'Nerko One', cursive;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li a:hover  {
+  font-family: 'Nerko One', cursive;
+  font-weight: 500;
+  color: rgb(0, 204, 255);
+}
+
+header a{
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align:right;
+  padding-bottom: 10cm;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+ section#two {
+  background-color: rgb(251, 255, 0);
+}
+
+ section#three {
+  background-color: rgb(8, 139, 52);
+}
+
+ section#four {
+  background-color: rgb(43, 255, 0);
+}
+
+form {
+  font-size: larger;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  display: inline-block;
+  background-color: rgb(241, 1, 149);
+  padding: 10px;
+  text-align: center;
+  margin-left: 130px;
+}
